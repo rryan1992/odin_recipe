@@ -63,7 +63,7 @@ hr {
     border-radius: 8px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
     height: auto;
-    width: 600px;
+    width: 70%;
 }
 .food-div {
     text-align: center;
@@ -90,12 +90,16 @@ hr {
     border-radius: 8px;
     color: black;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: 80%;
 }
 
 .nav-links {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 245px;
+    height: auto;
+    width: 100%;
 }
 .nav-links a {
     margin: 0 15px;
@@ -118,6 +122,8 @@ a:visited {
     border-radius: 8px;
     color: black;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: 50%;
 }
 
 #orangechicken {
@@ -127,6 +133,8 @@ a:visited {
     border-radius: 8px;
     color: black;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: 80%;
 }
 
 #orangechicken:hover, #fluff:hover, #lasagna:hover {
