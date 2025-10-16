@@ -10,16 +10,6 @@ body {
     margin: 30px;
 }
 
-/* Styles for larger phones (landscape) and small tablets */
-@media (min-width: 480px) {
-  /* Adjustments for wider mobile screens */
-}
-
-/* Styles for tablets and larger */
-@media (min-width: 768px) {
-  /* Tablet-specific styles */
-}
-
 p {
     margin: 10px;
     font-size: 18px;
