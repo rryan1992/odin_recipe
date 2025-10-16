@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body { 
+    background-color: #F5F5F0;
+    margin: 30px;
+}
+
+p {
+    margin: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+h1 {
+    margin: 20px 40px;
+    text-align: center;
+    color: #34656D;
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 20px 40px;
+    color: #5A9690;
+    text-decoration: underline;
+}
+
+li {
+    margin: 8px 0;
+    font-size: 18px;
+    padding-left: 20px;
+    list-style-position: inside;
+    color: #334443;
+    text-wrap:;
+}
+
+hr {
+    width: 33%;
+}
+
+#comment {
+    padding-left: 80px;
+    color: #334443;
+}
+
+.nav-bar {
+    margin: 5px;
+    font-size: 20px;
+    background-color: #FAEAB1;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.food {
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: 600px;
+}
+.food-div {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.ingredients {
+    margin: 20px 55px;
+    font-size: 18px;
+    color: #334443;
+}
+.instructions {
+    margin: 20px 55px;
+    font-size: 18px;
+    color: #334443;
+    width: 80%
+}
+
+#lasagna {
+    margin: 10px;
+    padding: 10px;
+    background-color: #FAEAB1;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 245px;
+}
+.nav-links a {
+    margin: 0 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #34656D;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: #5A9690;
+}
+
+#fluff {
+    margin: 10px;
+    padding: 10px;
+    background-color: #FAEAB1;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+#orangechicken {
+    margin: 10px;
+    padding: 10px;
+    background-color: #FAEAB1;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+#orangechicken:hover, #fluff:hover, #lasagna:hover {
+    background-color: #E3D8A7;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
